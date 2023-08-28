@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://kit.fontawesome.com/b14265bb1d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="overlay hide"></div>
+    <div class="input-wrapper hide">
+      <div class="input-section input-sec-2">
+        <label for="search">Enter a City name</label>
+        <input
+          type="search"
+          class="input input-mobile"
+          placeholder="E.g., Cairo, Juba, Kampala"
+        />
+        <button class="btn btn-mobile">Search</button>
+        <p class="all">For all countries</p>
+      </div>
+    </div>
+    <div class="weather-app">
+      <div class="head">
+        <h1 class="title">Weather Dashboard</h1>
+        <button class="mobile-search">Search City</button>
+      </div>
+      <div class="container">
+        <div class="input-section input-hide">
+          <label for="search">Enter a City name</label>
+          <input
+            type="search"
+            class="input input-desk"
+            placeholder="E.g., Cairo, Juba, Kampala"
+          />
+          <button class="btn btn-desk">Search</button>
+          <p class="all">For all countries</p>
+        </div>
+
+        <div class="content-section">
+          <div class="city-info">
+            <div class="city-currentdata">
+              <div class="data">
+                <h2>London (2023-06-09)</h2>
+                <p>Tempearature: 18.71 c</p>
+                <p>Wind: 4.31 m/s</p>
+                <p>Humidity: 76%</p>
+              </div>
+              <div class="weather-condition">
+                <img
+                  src="images/modate-rain.png"
+                  alt="rain icon"
+                  class="city-icon"
+                />
+                <p class="condition">Moderate rain</p>
+              </div>
+            </div>
+          </div>
+          <p class="four-days">4-Day forecast</p>
+          <div class="cards">
+            <div class="forecast-cards">
+              <div class="card">
+                <p class="date">(2023-06-20)</p>
+                <img
+                  src="images/modate-rain.png"
+                  alt="rain icon"
+                  class="card-icon"
+                />
+                <p>Temp: 18.71 c</p>
+                <p>Wind: 4.31 m/s</p>
+                <p>Humidity: 76%</p>
+              </div>
+              <div class="card">
+                <p class="date">(2023-06-20)</p>
+                <img
+                  src="images/modate-rain.png"
+                  alt="rain icon"
+                  class="card-icon"
+                />
+                <p>Temp: 18.71 c</p>
+                <p>Wind: 4.31 m/s</p>
+                <p>Humidity: 76%</p>
+              </div>
+              <div class="card">
+                <p class="date">(2023-06-20)</p>
+                <img
+                  src="images/modate-rain.png"
+                  alt="rain icon"
+                  class="card-icon"
+                />
+                <p>Temp: 18.71 c</p>
+                <p>Wind: 4.31 m/s</p>
+                <p>Humidity: 76%</p>
+              </div>
+              <div class="card">
+                <p class="date">(2023-06-20)</p>
+                <img
+                  src="images/modate-rain.png"
+                  alt="rain icon"
+                  class="card-icon"
+                />
+                <p>Temp: 18.71 c</p>
+                <p>Wind: 4.31 m/s</p>
+                <p>Humidity: 76%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
